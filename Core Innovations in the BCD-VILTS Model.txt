@@ -1,13 +1,15 @@
 Core Innovations in the BCD-VILTS Model
 1. Multimodal Medical Intelligence Fusion
 
-The biggest innovation is the integration of three different biomedical modalities into one unified inference pipeline:
+The biggest innovation is the integration of three different biomedical 
+modalities into one unified inference pipeline:
 
 Medical imaging
 Clinical/narrative text
 Genomic sequence data
 
-This enables the model to learn cross-modal relationships instead of relying on only one source of evidence.
+This enables the model to learn cross-modal relationships 
+instead of relying on only one source of evidence.
 
 Why this matters
 
