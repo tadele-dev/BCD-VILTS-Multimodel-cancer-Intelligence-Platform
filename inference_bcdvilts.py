@@ -2,7 +2,6 @@
 inference_bcdvilts.py
 
 Unique multimodal inference implementation for BCD-VILTS ( external microservice).
-
 Features:
 - Image encoder: ResNet-50 (torchvision), optional Grad-CAM explainability
 - Text encoder: BERT (transformers) - uses pooled output and tries to extract attentions
