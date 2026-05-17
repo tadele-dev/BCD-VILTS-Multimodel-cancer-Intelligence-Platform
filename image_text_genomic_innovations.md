@@ -3,6 +3,7 @@
 ✔ 1.1 ResNet-50 Used as Pure Feature Extractor (Not Classifier)
 modules = list(resnet.children())[:-2]
 self.feature_extractor = nn.Sequential(*modules)
+
 Innovation
 
 You removed the classification head and used ResNet-50 strictly as:
@@ -39,6 +40,7 @@ f is used for explainability (Grad-CAM)
 ✔ 1.3 Adaptive Spatial Feature Pooling
 
 self.pool = nn.AdaptiveAvgPool2d((1, 1))
+
 Innovation
 
 This makes the image encoder:
@@ -50,6 +52,7 @@ deployment-friendly for variable image sizes
 ✔ 1.4 Fusion-Ready Projection Layer
 
 self.fc = nn.Linear(2048, out_dim)
+
 Innovation
 
 You compress high-dimensional CNN output into:
@@ -68,6 +71,7 @@ transformer fusion alignment
 ✔ 2.1 Direct Use of BERT Pooler Output
 
 pooled = out.pooler_output
+
 Innovation
 
 Instead of token-level attention pooling, you use:
@@ -219,23 +223,6 @@ image embedding space
 text embedding space
 
 This is essential for multimodal learning.
-
-
-
-🔥 Summary: True Code Innovations per Modality
-Modality Real Code Innovation
-Image	ResNet used as feature extractor + dual outputs (embedding + feature maps)
-Image	Grad-CAM-ready   architecture via retained conv maps
-Image	Adaptive pooling for resolution-independent inference
-Text	BERT pooled embedding + projection to shared multimodal space
-Text	On-the-fly tokenization inside model (API-ready NLP pipeline)
-Text	Device-aware tensor migration for production inference
-Genomic	DNA → normalized numeric signal encoding (lightweight bio encoding)
-Genomic	1D CNN motif learning on sequence data
-Genomic	Fixed-length sequence normalization for batching
-Genomic	Unknown nucleotide robustness handling
-Genomic	Projection into shared multimodal latent space
-
 
 
 🚀 Key Insight (Most Important)
