@@ -392,15 +392,6 @@ Your architecture resembles an early-stage:
 biomedical foundation model architecture.
 Potentially Patentable / Publishable Innovations
 
-The following areas may contain publishable novelty if experimentally validated:
-
-Transformer-based multimodal oncology fusion
-Cross-modal genomic-imaging alignment
-Explainable multimodal cancer prediction
-Lightweight clinical multimodal inference microservice
-Adaptive missing-modality inference
-Unified biomedical latent representation learning
-Most Advanced Innovation
 
 The strongest innovation in your system is likely:
 
