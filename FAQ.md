@@ -202,6 +202,7 @@ base64.b64encode(buff.getvalue()).decode("utf-8")
 
 allows heatmaps to be transmitted directly through APIs without saving image files to disk.
 
+
 20. Why is the model instance stored globally?
 
 Answer:
@@ -215,6 +216,7 @@ ResNet,
 BERT,
 Transformer weights
 for every API request, greatly improving deployment performance.
+
 
 21. Why is the decode_base64_image() function an innovative deployment feature?
 
@@ -231,6 +233,8 @@ simplifies cloud deployment,
 improves interoperability,
 enables browser/mobile integration,
 removes dependency on local storage systems.
+
+
 22. Why is the DEVICE auto-detection implementation important?
 
 Answer:
@@ -245,6 +249,8 @@ This enables:
 GPU acceleration when available,
 CPU fallback in low-resource systems,
 portable deployment across hospitals and cloud servers.
+
+
 23. Why is environment-variable configuration considered innovative?
 
 Answer:
@@ -260,6 +266,8 @@ Docker deployment,
 Kubernetes orchestration,
 CI/CD pipelines,
 production scalability.
+
+
 24. Why is the tokenizer-device separation a smart engineering choice?
 
 Answer:
@@ -274,6 +282,8 @@ This:
 conserves GPU memory,
 improves efficiency,
 avoids unnecessary GPU allocation.
+
+
 25. Why is the genomic normalization strategy innovative?
 
 Answer:
@@ -288,6 +298,8 @@ This:
 stabilizes training,
 improves neural optimization,
 creates biologically scalable embeddings.
+
+
 26. Why is the dynamic batch-building logic important?
 
 Answer:
@@ -302,6 +314,8 @@ This innovation supports:
 asynchronous hospital data streams,
 partial patient records,
 real-world multimodal inconsistencies.
+
+
 27. Why is the reusable image transformation pipeline innovative?
 
 Answer:
@@ -316,6 +330,8 @@ This ensures:
 preprocessing consistency,
 reproducibility,
 standardized inference behavior.
+
+
 28. Why is using pretrained ImageNet statistics valuable?
 
 Answer:
@@ -330,6 +346,8 @@ This:
 accelerates convergence,
 improves feature quality,
 enhances medical image generalization.
+
+
 29. Why is adaptive genomic pooling innovative?
 
 Answer:
@@ -344,6 +362,8 @@ This allows:
 scalable genomic sequence handling,
 consistent fusion compatibility,
 memory-efficient processing.
+
+
 30. Why is the Transformer activation choice significant?
 
 Answer:
@@ -358,6 +378,8 @@ This improves:
 smooth gradient propagation,
 representation learning,
 Transformer stability.
+
+
 31. Why is LayerNorm before classification important?
 
 Answer:
@@ -372,6 +394,8 @@ This:
 stabilizes training,
 reduces internal covariate shift,
 improves convergence.
+
+
 32. Why is the explainability fallback mechanism innovative?
 
 Answer:
@@ -386,6 +410,8 @@ This improves:
 system reliability,
 fault tolerance,
 production robustness.
+
+
 33. Why is the optional Grad-CAM computation strategy efficient?
 
 Answer:
@@ -403,6 +429,8 @@ This balances:
 interpretability,
 inference speed,
 deployment scalability.
+
+
 34. Why is zero-modality substitution innovative?
 
 Answer:
@@ -413,6 +441,8 @@ dummy_text = torch.zeros(...)
 creates synthetic placeholder embeddings during explainability generation.
 
 This isolates modality-specific influence for analysis.
+
+
 
 35. Why is the overlay blending implementation important?
 
@@ -428,6 +458,8 @@ This helps clinicians:
 identify suspicious image regions,
 trust AI decisions,
 improve diagnostic understanding.
+
+
 36. Why is the CLI interface an engineering innovation?
 
 Answer:
@@ -442,6 +474,8 @@ This:
 simplifies debugging,
 improves reproducibility,
 accelerates experimentation.
+
+
 37. Why is the model-version tracking implementation valuable?
 
 Answer:
@@ -456,6 +490,8 @@ This supports:
 clinical auditing,
 experiment tracking,
 regulatory compliance.
+
+
 38. Why is modular checkpoint loading innovative?
 
 Answer:
@@ -471,6 +507,8 @@ This enables:
 subsystem retraining,
 modular experimentation,
 scalable research development.
+
+
 39. Why is the API payload flexibility important?
 
 Answer:
@@ -488,6 +526,8 @@ This improves usability across:
 mobile apps,
 cloud services,
 hospital systems.
+
+
 40. Why is BCD-VILTS considered a software engineering innovation rather than only an AI model?
 
 Answer:
