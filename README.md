@@ -4,6 +4,8 @@ Multi-modal AI system for cancer prediction and explainable using image text and
 
 ## Overview
 
+This repository is motivated by the Afreximbank Awards, Afreximbank initiatives, the Alamein Africa Forum, and the Africa We Build Summit in-person invitation and sponsorship ecosystem.
+
 BCD-VILTS is an explainable multimodal AI platform for cancer intelligence that integrates medical imaging, clinical text, and genomic data using transformer-based fusion. The system is designed for precision oncology and clinical decision support, providing predictions along with explainability outputs for real-world medical use cases.
 
 ---
